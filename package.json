@@ -1,0 +1,21 @@
+{
+  "title": "GitHub Branch Reflinks",
+  "name": "github-branch-reflinks",
+  "version": "1.0.0",
+  "description": "Modifies branch references to link to their according branch/repository.",
+  "author": "Eli Clemente Gordillo Foster",
+  "main": "index.js",
+  "engines": {
+    "firefox": ">=45"
+  },
+  "license": "MIT",
+  "keywords": [
+    "github",
+    "branch",
+    "link"
+  ],
+  "homepage": "https://github.com/elifoster/github-branch-reflinks",
+  "dependencies": {
+    "he": "^1.1.0"
+  }
+}
