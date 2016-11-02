@@ -6,7 +6,7 @@
   "author": "Eli Clemente Gordillo Foster",
   "main": "index.js",
   "engines": {
-    "firefox": ">=45"
+    "firefox": ">=38.0a1"
   },
   "license": "MIT",
   "keywords": [

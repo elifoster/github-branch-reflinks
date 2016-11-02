@@ -23,7 +23,6 @@ function doForEachCommitRef(funcToDo) {
             continue;
         }
         funcToDo(titleItem.value, i);
-        console.log(i);
     }
 }
 
@@ -35,8 +34,5 @@ self.port.on('returnDecoded', function(obj) {
     var decodedStr = obj['str'];
     var element = commitRefs[obj['index']];
     var oldInnerHTML = element.innerHTML;
-    console.log(oldInnerHTML);
     element.innerHTML = `<a href="${decodedStr}">${oldInnerHTML}</a>`;
-    console.log(element.innerHTML);
-    console.log(decodedStr);
 });
