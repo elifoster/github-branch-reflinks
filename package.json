@@ -14,8 +14,5 @@
     "branch",
     "link"
   ],
-  "homepage": "https://github.com/elifoster/github-branch-reflinks",
-  "dependencies": {
-    "he": "^1.1.0"
-  }
+  "homepage": "https://github.com/elifoster/github-branch-reflinks"
 }
