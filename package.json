@@ -14,5 +14,9 @@
     "branch",
     "link"
   ],
-  "homepage": "https://github.com/elifoster/github-branch-reflinks"
+  "homepage": "https://github.com/elifoster/github-branch-reflinks",
+  "permissions": {
+    "private-browsing": true,
+    "multiprocess": true
+  }
 }
